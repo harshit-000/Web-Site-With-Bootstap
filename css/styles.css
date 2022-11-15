@@ -1,0 +1,214 @@
+body{
+    font-family: Ubuntu;
+}
+
+#title {
+    background-color: #EB5353;
+}
+
+
+h1{
+    font-family: Montserrat;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #fff;
+    padding: 0 0 10% 0;
+}
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+
+
+/* Navigation Bar */
+.color-nav{
+    color: #F2F2F2;
+}
+
+.navbar-brand{
+    font-family: Ubuntu;
+    font-size: 2rem;
+}
+
+.nav-link{
+    padding: 0 10%;
+    font-weight: lighter;
+}
+
+.navbar{
+    padding: 0 0 7% 0;
+}
+
+/* Navigation Bar */
+
+
+
+
+.donwload-btn{
+    margin: 20px 10px;
+}
+
+.title-img{
+    width: 60%;
+    transform: rotate(25deg);
+    margin: 10%;
+    position: absolute;
+    left: 10%;
+}
+
+a:hover{
+    color: #fff;
+}
+
+.fa-solid{
+    color: #ef8172;
+    font-size: 3.5rem;
+    padding: 7%;
+}
+
+h3{
+    font-weight: bold;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+
+#features{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+}
+
+i:hover{
+    color: #EB5353;
+}
+
+/* Testimonials Section */
+
+.headi{
+    font-family: Ubuntu;
+    line-height: 1.5;
+    width: 60%;
+    margin: 0 0 0 20%;
+}
+
+#testimonials {
+    padding: 3% 15%;
+    text-align: center;
+    background-color: #EB5353;
+    color: #fff;
+}
+
+.testimonial-card{
+    background-color: #fff;
+    color: #EB5353;
+    margin: 60px;
+    width: 50%;
+    text-align: center;
+    padding: 5% 0;
+    border-radius: 8%;
+}
+
+.testimonial-card:hover{
+    background-color: #FEF7DC;
+}
+
+.butn{
+    background-color: #fff;
+}
+
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+/* Press section */
+
+
+#press{
+    text-align: center;
+    background-color: #EB5353;
+    padding-bottom: 50px;
+}
+
+.press-img{
+    margin: 10px;
+}
+
+
+/* Pricing Section */
+
+.card{
+    border-radius: 15px;
+}
+
+
+#pricing{
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.price-title{
+    font-weight: bold;
+    padding-bottom : 25px;
+}
+
+.card-header{
+    background-color: #EB5353;
+    color: #fff;
+}
+
+.card-footer{
+    background-color: #EB5353;
+    color: #fff;
+}
+
+.card-body{
+    background-color: #f3f3f3
+}
+
+.ppp{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#cta{
+    padding: 7% 15%;
+    background-color: #EB5353;
+    color: #fff;
+    text-align: center;
+}
+
+.cta-head{
+    font-family: Montserrat;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-button{
+    font-size: 1.5rem;
+    margin : 20px 10px;
+}
+
+
+@media (max-width : 993px) {
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title{
+        text-align: center;
+    }
+}
